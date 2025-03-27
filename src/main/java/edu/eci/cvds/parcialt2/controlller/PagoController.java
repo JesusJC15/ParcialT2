@@ -18,7 +18,7 @@ import edu.eci.cvds.parcialt2.service.PagoService;
 
 @RestController
 @RequestMapping("/pagos")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 public class PagoController {
 
     @Autowired
